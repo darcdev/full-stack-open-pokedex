@@ -10,4 +10,10 @@ jobs:
     steps:
       - name: Say Hello
         run: |
-          echo "Saludos, Amo a Camila"
+          echo "Hello World"
+      - name: Now it is
+        run: |
+          echo "date"
+      - name: Directory Content
+      - run: |
+          echo "ls -l"
