@@ -1,0 +1,12 @@
+# fly.toml file generated for wandering-shadow-5013 on 2022-11-02T23:40:06-05:00
+
+app = "wandering-shadow-5013"
+
+[deploy]
+  release_command = "npm run build"
+
+[env]
+  PORT = "8080"
+
+[processes]
+  app = "node app.js"
